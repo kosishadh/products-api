@@ -33,6 +33,9 @@ public class HelloController {
         return "Goodbye from Spring Boots!";
     }
 
+    @GetMapping("/time")
+    public String time(){return "The current time is"+LocalDate.now().toString();}
+
     // TODO (Activity 3): add your /goodbye endpoint here.
 
 }
