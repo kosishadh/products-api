@@ -13,10 +13,10 @@ public class Product {
         this.price=price;
     }
 
-    public Long getId();
+    public Long getId() {return id;}
 
-    public String getName();
+    public String getName() {return name;}
 
-    public double getPrice();
+    public double getPrice() {return price;}
 
 }
