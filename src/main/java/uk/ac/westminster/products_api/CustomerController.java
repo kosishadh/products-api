@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/customers")
 public class CustomerController {
-    @GetMapping("/{id")
+    @GetMapping("/{id}")
     public Customer getById (@PathVariable Long id){
 
         Address address = new Address(
