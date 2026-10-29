@@ -7,7 +7,7 @@ public class PhysicalProduct extends Product {
     public  PhysicalProduct(){
     }
 
-    public PhysicalProduct(Long id,String name, double price, String dimensions, double weightKg){
+    public PhysicalProduct(Long id,String name, double price,double weightKg, String dimensions){
         super (id,name,price);
         this.weightKg=weightKg;
         this.dimensions=dimensions;
