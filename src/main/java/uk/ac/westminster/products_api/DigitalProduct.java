@@ -20,6 +20,6 @@ public class DigitalProduct extends Product {
     }
 
     public double getFileSizeMB(){
-        return getFileSizeMB();
+        return fileSizeMB;
     }
 }
